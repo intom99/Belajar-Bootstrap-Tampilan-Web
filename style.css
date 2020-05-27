@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#jumbo{
+	background: url('img/hp.jpg');
+	height: 500px;
+	padding-top: 200px;
+	color:white;
+}
+
+#img-about{
+	padding-left: 20px;
+	height: 350px;
+	width: 330px;
+}
+#img-sosmed{
+
+}
+
+#img-service{
+	height: 120px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top:30px;
+}
+#card{
+	margin-left: 120px;
+	height: 300px;
+}
+#img-card{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+.footer{
+	height: 50px;
+	text-align: center;
+	color:white;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+/*  */
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:white; color:black;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#343a40; }
